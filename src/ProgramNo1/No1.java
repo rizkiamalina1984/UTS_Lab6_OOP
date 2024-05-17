@@ -75,7 +75,7 @@ class Kucing extends Hewan {
     // Metode ini menimpa metode bersuara dari superclass Hewan
     @Override
     public void bersuara() {
-        System.out.println("Meow!");
+        System.out.println("Meow - Meow!");
     }
 }
 
@@ -92,7 +92,7 @@ class Anjing extends Hewan {
     // Metode ini menimpa metode bersuara dari superclass Hewan
     @Override
     public void bersuara() {
-        System.out.println("Woof!");
+        System.out.println("Woof - Woof!");
     }
 }
 
